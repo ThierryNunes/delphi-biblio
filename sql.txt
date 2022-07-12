@@ -1,0 +1,63 @@
+CREATE TABLESPACE Biblio DATAFILE 'c:\oraclexe\biblio.ora' SIZE 100m AUTOEXTEND ON NEXT 10m;
+
+CREATE USER usuario IDENTIFIED BY abc DEFAULT TABLESPACE Biblio;
+
+GRANT DBA TO usuario;
+
+CONN usuario/abc
+
+CREATE TABLE livros (
+	codigolivro NUMBER(3) NOT NULL,
+	nome VARCHAR2(60) NOT NULL,
+	editora VARCHAR2(60) NOT NULL,
+	autor VARCHAR2(60) NOT NULL	
+);
+
+ALTER TABLE livros ADD CONSTRAINT livros_pk PRIMARY KEY ( codigolivro );
+
+CREATE TABLE locatarios (
+	codigolocatario NUMBER(3) NOT NULL,
+	nome VARCHAR2(60) NOT NULL,
+	celular VARCHAR2(60) NOT NULL,
+	rua VARCHAR2(60) NOT NULL,
+	bairro VARCHAR2(60) NOT NULL,
+	cidade VARCHAR2(60) NOT NULL
+);
+
+ALTER TABLE locatarios ADD CONSTRAINT locatarios_pk PRIMARY KEY ( codigolocatario );
+
+CREATE TABLE locacao (
+	codigolocacao NUMBER(3) NOT NULL,
+	dataretirada DATE NOT NULL,
+	datadevolucao DATE NOT NULL,
+	codigolivro NUMBER(3) NOT NULL,
+	codigolocatario NUMBER(3) NOT NULL
+);
+
+ALTER TABLE locacao ADD CONSTRAINT locacao_pk PRIMARY KEY ( codigolocacao );
+
+ALTER TABLE locacao
+	ADD CONSTRAINT locacao_livros_fk FOREIGN KEY ( codigolivro )
+		REFERENCES livros ( codigolivro );
+ALTER TABLE locacao
+	ADD CONSTRAINT locacao_locatario_fk FOREIGN KEY ( codigolocatario )
+		REFERENCES locatarios ( codigolocatario );
+
+INSERT INTO livros (codigolivro, nome, editora, autor) VALUES (3, 'Destrua Este Diário', 'Intrínseca', 'Keri Smith');
+INSERT INTO livros (codigolivro, nome, editora, autor) VALUES (4, 'O diário mais legal do mundo', 'Thomas Nelson Brasil', 'Thomas Nelson do Brasil');
+INSERT INTO livros (codigolivro, nome, editora, autor) VALUES (5, 'Outra página de cada vez', 'Paralela', 'Adam J. Kurtz');
+INSERT INTO livros (codigolivro, nome, editora, autor) VALUES (6, 'A Forma Da Água', 'Intrínseca', 'Guilhermo del Toro');
+
+SELECT * FROM livros;
+
+INSERT INTO locatarios (codigolocatario, nome, celular, rua, bairro, cidade) VALUES (1, 'Danilo', '(66) 99912-2345', 'Rua Alameda, 300', 'Centro', 'Rondonópolis');
+INSERT INTO locatarios (codigolocatario, nome, celular, rua, bairro, cidade) VALUES (2, 'Gustavo Ribeiro', '(66) 99944-5557', 'Rua Piracicaba', 'Centro', 'Rondonópolis');
+INSERT INTO locatarios (codigolocatario, nome, celular, rua, bairro, cidade) VALUES (3, 'Daniela Casanova', '(66) 99984-6523', 'Rua Juruce', 'Centro', 'Rondonópolis');
+
+SELECT * FROM locatarios;
+
+INSERT INTO locacao (codigolocacao, dataretirada, datadevolucao, codigolivro, codigolocatario) VALUES (0, '11/07/2022', '13/07/2022', 5, 2);
+INSERT INTO locacao (codigolocacao, dataretirada, datadevolucao, codigolivro, codigolocatario) VALUES (1, '11/07/2022', '15/07/2022', 6, 3);
+INSERT INTO locacao (codigolocacao, dataretirada, datadevolucao, codigolivro, codigolocatario) VALUES (2, '11/07/2022', '16/07/2022', 4, 1);
+
+SELECT * FROM locacao;

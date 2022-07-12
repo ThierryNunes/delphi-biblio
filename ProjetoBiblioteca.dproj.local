@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/11 14:48:29.000.940,=C:\Users\Thierry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/11 14:48:39.000.885,C:\Users\Thierry\Documents\Embarcadero\Studio\Projects\ProjetoBiblioteca.dproj=C:\Users\Thierry\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/07/11 14:49:37.000.841,C:\Users\Thierry\Documents\Embarcadero\Studio\Projects\uPrincipal.dfm=C:\Users\Thierry\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/07/11 14:49:37.000.841,C:\Users\Thierry\Documents\Embarcadero\Studio\Projects\uPrincipal.pas=C:\Users\Thierry\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/11 14:50:29.000.702,D:\Faculdade\Projeto Delphi\ProjetoConnect\uPrincipal.dfm=C:\Users\Thierry\Documents\Embarcadero\Studio\Projects\uPrincipal.dfm</Transaction>
+    <Transaction>2022/07/11 14:50:29.000.702,D:\Faculdade\Projeto Delphi\ProjetoConnect\uPrincipal.pas=C:\Users\Thierry\Documents\Embarcadero\Studio\Projects\uPrincipal.pas</Transaction>
+    <Transaction>2022/07/11 14:50:30.000.982,D:\Faculdade\Projeto Delphi\ProjetoConnect\ProjetoBiblioteca.dproj=C:\Users\Thierry\Documents\Embarcadero\Studio\Projects\ProjetoBiblioteca.dproj</Transaction>
+    <Transaction>2022/07/11 15:27:58.000.278,=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.pas</Transaction>
+    <Transaction>2022/07/11 15:28:06.000.994,D:\Faculdade\Projeto Delphi\ProjetoConnect\uLivros.dfm=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.dfm</Transaction>
+    <Transaction>2022/07/11 15:28:06.000.994,D:\Faculdade\Projeto Delphi\ProjetoConnect\uLivros.pas=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.pas</Transaction>
+    <Transaction>2022/07/11 15:29:28.000.921,=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.pas</Transaction>
+    <Transaction>2022/07/11 15:29:42.000.718,D:\Faculdade\Projeto Delphi\ProjetoConnect\uDataModule.pas=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.pas</Transaction>
+    <Transaction>2022/07/11 15:29:42.000.718,D:\Faculdade\Projeto Delphi\ProjetoConnect\uDataModule.dfm=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.dfm</Transaction>
+    <Transaction>2022/07/11 16:27:53.000.889,=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.pas</Transaction>
+    <Transaction>2022/07/11 16:28:02.000.942,D:\Faculdade\Projeto Delphi\ProjetoConnect\uLocatarios.pas=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.pas</Transaction>
+    <Transaction>2022/07/11 16:28:02.000.942,D:\Faculdade\Projeto Delphi\ProjetoConnect\uLocatarios.dfm=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.dfm</Transaction>
+    <Transaction>2022/07/11 16:46:08.000.101,=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.pas</Transaction>
+    <Transaction>2022/07/11 16:46:16.000.195,D:\Faculdade\Projeto Delphi\ProjetoConnect\uLocacao.pas=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.pas</Transaction>
+    <Transaction>2022/07/11 16:46:16.000.195,D:\Faculdade\Projeto Delphi\ProjetoConnect\uLocacao.dfm=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.dfm</Transaction>
+    <Transaction>2022/07/12 10:21:20.000.819,=D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.pas</Transaction>
+    <Transaction>2022/07/12 10:22:08.000.042,D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.dfm=D:\Faculdade\Projeto Delphi\ProjetoConnect\uDevolucoes.dfm</Transaction>
+    <Transaction>2022/07/12 10:22:08.000.042,D:\Faculdade\Projeto Delphi\ProjetoConnect\Unit1.pas=D:\Faculdade\Projeto Delphi\ProjetoConnect\uDevolucoes.pas</Transaction>
+  </Transactions>
+</BorlandProject>

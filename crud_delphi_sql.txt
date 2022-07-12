@@ -1,0 +1,25 @@
+Exercício de nivelamento: 
+
+Crie o projeto para uma biblioteca contendo os seguintes cadastros: 
+
+Livros 
+Locatários
+Historico de Locação
+
+Observação: 
+
+Cada locatário só poderá retirar 3 exemplares por vez.
+
+A data de retirada do exemplar é a data atual. 
+
+No historico de locação deverá apresentar: Nome do locatário, exemplares que foram retirados pelo locatário, data de retirada, data de devolução e dias em atraso quando o exemplar for devolvido depois da data pré-agendada.
+
+Todos os cadastros deverão conter as funções de Inserir, Editar e Excluir. 
+
+
+Tecnologias: 
+
+**Delphi 
+**SQL Server
+
+
